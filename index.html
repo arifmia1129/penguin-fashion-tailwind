@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        customcolor: '#FFFBF0',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="bg-customcolor py-5">
+        <section class="container sm:flex justify-evenly items-center mx-auto">
+            <div class="space-y-4">
+                <h1 class="text-4xl sm:text-7xl uppercase font-extrabold">
+                    <span class="text-yellow-500">Be the Penguins</span>
+                    <br>
+                    <span class="text-blue-900">Of Winter</span>
+                </h1>
+                <p class="text-justify">Welcome to our digital shop. Now, available more winter dress in our shop. Thank
+                    you.</p>
+                <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    Buy Now
+                </button>
+            </div>
+            <div>
+                <img class="w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="container mx-auto pb-8">
+            <h2 class="uppercase text-6xl text-blue-900">Woman Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 sm: gap-5">
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto pb-8">
+            <h2 class="uppercase text-6xl text-blue-900">Man Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 sm: gap-5">
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-semibold p-7">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-semibold p-7">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-xl rounded-xl">
+                    <div class="p-5 bg-slate-300 rounded-xl">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <br>
+                    <h3 class="text-3xl font-semibold">Beautiful coat Jacket</h3>
+                    <p>This product is available now. Please confrime your order.</p>
+                    <br>
+                    <div class="sm:flex justify-between py-10">
+                        <p class="text-5xl text-yellow-500">$234</p>
+                        <button class="uppercase bg-lime-700 text-white font-semibold py-4 px-7 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto p-7">
+            <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-7">
+                <div class="bg-gray-50 flex items-center justify-center">
+                    <div>
+                        <img class="w-20 h-20 flex justify-center items-center" src="images/house.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+                        <p>Everybody is different, which is why we
+
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 row-span-3 rounded">
+                    <img class="w-fit" src="images/shopping.png" alt="">
+                </div>
+                <div class="bg-gray-50 sm:flex items-center justify-center">
+                    <div>
+                        <img class="w-20 h-20 flex justify-center items-center" src="images/house.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+                        <p>Everybody is different, which is why we
+
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 sm:flex items-center justify-center">
+                    <div>
+                        <img class="w-20 h-20 flex justify-center items-center" src="images/house.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+                        <p>Everybody is different, which is why we
+
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
